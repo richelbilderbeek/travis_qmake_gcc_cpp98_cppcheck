@@ -1,7 +1,7 @@
 #include <iostream>
 
-//C++14
-auto f() noexcept {
+//C++98
+std::string f() {
   return "Hello world\n";
 }
 
