@@ -1,7 +1,11 @@
 language: cpp
+dist: bionic
 compiler: gcc
 
 install: 
+  - sudo apt update -qq
+  # Boost
+  - sudo apt install -qq libboost-all-dev
   # cppcheck
   - sudo apt-get install -qq cppcheck
 
